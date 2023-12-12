@@ -1,0 +1,20 @@
+<form (ngSubmit)="updateStudent() ">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" name="name" class="form-control" [(ngModel)]="student.name">
+</div>
+
+<div class="form-group">
+    <label for="department">Department</label>
+    <input type="text" name="department" class="form-control"[(ngModel)]="student.department">
+</div>
+
+<div class="form-group">
+    <label for="email">Email</label>
+    <input type="text" name="email" class="form-control"[(ngModel)]="student.email">
+</div>
+
+<button class="btn btn-dark btn-sm mt-4 ">Update</button>
+
+</form>
+
